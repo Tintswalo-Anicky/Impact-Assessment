@@ -8,7 +8,7 @@ The following classes were used:
 
 interface NumberRangeSummarizer : interface was given and these methods have to be implemented
 Main: implemented NumberRangeSummarizer to produce the lists
-TestMain: class that used JUnit to test the Main class to ensure the program is working correctly
+TestClass: class that used JUnit to test the Main class to ensure the program is working correctly
 The following assumptions were made:
 
 The input given must be numbers separated by commas and with no spaces (eg. 1,5,6,7,8)
