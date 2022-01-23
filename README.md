@@ -3,7 +3,7 @@
 This is a repository for a java Assessment from Impact where the aim is to produce a comma delimited list of numbers and grouping the numbers into a range when they are sequential. <br /><br />Example: <br />
 
 Sample Input: "1,3,6,7,8,12,13,14,15,21,22,23,24,31 <br />
-Result: "1, 3, 6-8, 12-15, 21-24, 31" <br />
+Output: "1, 3, 6-8, 12-15, 21-24, 31" <br />
 The following classes were used: <br />
 
 interface NumberRangeSummarizer : interface was given and these methods have to be implemented<br />
