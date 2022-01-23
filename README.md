@@ -1,15 +1,15 @@
 # Impact-Assessment
 
-This is a repository for a java Assessment from Impact where the aim is to produce a comma delimited list of numbers and grouping the numbers into a range when they are sequential. Example:
+This is a repository for a java Assessment from Impact where the aim is to produce a comma delimited list of numbers and grouping the numbers into a range when they are sequential. <br />Example: <br />
 
-Sample Input: "1,3,6,7,8,12,13,14,15,21,22,23,24,31
-Result: "1, 3, 6-8, 12-15, 21-24, 31"
-The following classes were used:
+Sample Input: "1,3,6,7,8,12,13,14,15,21,22,23,24,31 <br />
+Result: "1, 3, 6-8, 12-15, 21-24, 31" <br />
+The following classes were used: <br />
 
-interface NumberRangeSummarizer : interface was given and these methods have to be implemented
-Main: implemented NumberRangeSummarizer to produce the lists
-TestClass: class that used JUnit to test the Main class to ensure the program is working correctly
-The following assumptions were made:
+interface NumberRangeSummarizer : interface was given and these methods have to be implemented<br />
+Main: implemented NumberRangeSummarizer to produce the lists <br />
+TestClass: class that used JUnit to test the Main class to ensure the program is working correctly <br />
+The following assumptions were made: <br />
 
 The input given must be numbers separated by commas and with no spaces (eg. 1,5,6,7,8)
 The input can consist of both negative and non-negative values
