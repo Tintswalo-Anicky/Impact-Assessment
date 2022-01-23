@@ -14,13 +14,7 @@ public class TestClass {
     public void collect() throws Exception{
 
         NumberRangeSummarizer my_method = new Main();
-        Collection<Intege
-
-        NumberRangeSummarizer my_method = new Main();
-        String input= "1,3,6,7,8,12,13,14,15,21,22,23,24,31" ;
-        String compare= "1, 3, 6-8, 12-15, 21-24, 31"; // The final result
-        Collection<Integer> output = my_method.collect(input);
-        String Result = my_method.summarizeCollection(output);r> testList = Arrays.asList(1,3,6,7,8,12,13,14,15,21,22,23,24,31);
+        Collection<Integer> testList = Arrays.asList(1,3,6,7,8,12,13,14,15,21,22,23,24,31);
         String input= "1,3,6,7,8,12,13,14,15,21,22,23,24,31";
         Collection<Integer> list = my_method.collect(input);
         assertArrayEquals(list.toArray(),testList.toArray());
@@ -29,6 +23,12 @@ public class TestClass {
 
     @Test// Test summarizeCollection class
     public void summarize() throws Exception{
+
+        NumberRangeSummarizer my_method = new Main();
+        String input= "1,3,6,7,8,12,13,14,15,21,22,23,24,31" ;
+        String compare= "1, 3, 6-8, 12-15, 21-24, 31"; // The final result
+        Collection<Integer> output = my_method.collect(input);
+        String Result = my_method.summarizeCollection(output);
         assertEquals(compare, Result);
     }
 
